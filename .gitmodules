@@ -1,0 +1,3 @@
+[submodule "kernel"]
+	path = kernel
+	url = https://gitlab.com/ubports/community-ports/android10/xiaomi-redmi-9/kernel-xiaomi-mt6768.git

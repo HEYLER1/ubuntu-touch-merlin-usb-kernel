@@ -1,0 +1,16 @@
+# Merge with the saved running configuration; run olddefconfig and verify output.
+# TP-Link TL-WN722N V1 / Atheros AR9271
+CONFIG_WLAN=y
+CONFIG_CFG80211=y
+CONFIG_MAC80211=y
+CONFIG_WLAN_VENDOR_ATH=y
+CONFIG_ATH_CARDS=y
+CONFIG_ATH9K_HTC=y
+CONFIG_EXTRA_FIRMWARE="ath9k_htc/htc_9271-1.4.0.fw"
+CONFIG_EXTRA_FIRMWARE_DIR="/work/firmware"
+# USB UART and CDC ACM for development boards
+CONFIG_USB_SERIAL=y
+CONFIG_USB_SERIAL_CP210X=y
+CONFIG_USB_SERIAL_CH341=y
+CONFIG_USB_SERIAL_FTDI_SIO=y
+CONFIG_USB_ACM=y

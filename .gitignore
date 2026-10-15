@@ -1,0 +1,7 @@
+out/
+firmware/
+*.img
+*.log
+*.deb
+*.tgz
+*.pdf
